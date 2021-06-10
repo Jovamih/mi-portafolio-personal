@@ -1,0 +1,21 @@
+
+#subtitulo{
+    text-align: center;
+}
+#imc_result{
+    margin-left: 20%;
+    
+    margin-right:20%;
+}
+#calculador-central{
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+#pie_pagina{
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
