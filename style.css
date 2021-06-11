@@ -19,4 +19,79 @@
       padding: 10px 0;
     }
   }
+  .about-img{
+    margin-left: -100px;
+    right: -60px;
+   }
+   
+   .display-1{
+     font-size: 160px;
+     font-weight: 1000;
+     
+   }
+    
+   .position-absolute{
+     font-weight: 700;
+     
+   }
+   
+   .typed-cursor {
+     font-size: 45px;
+     color: #ffffff;
+   }
+   
+   .blue{
+     background-color: #1c5ce6;
+     color: #ffffff;
+   }
+   .btn{
+     border: 2px solid rgb(29, 105, 247);
+   } 
+   .btn-white{
+     background-color: #ffffff;
+     border:2px solid #ffffff;
+   }
+   .btn-blue{
+     border: 2.4px solid #ffffff;
+     color: #ffffff;
+   }
+   @media (max-width: 700px) {
+    .about-img{
+      margin-left: 20px;
+      right: 0px;
+      top: 30px;
+     }
+  }
+  .navbar-light {
+    display: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #0BCEAF;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 10px 0;
+    }
+  }
+
+  /*CSS DE LOS SKILLS*/
+.progress {
+  border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+  }
   
